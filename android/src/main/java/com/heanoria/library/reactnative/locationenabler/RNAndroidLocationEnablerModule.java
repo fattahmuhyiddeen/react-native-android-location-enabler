@@ -121,7 +121,7 @@ public class RNAndroidLocationEnablerModule extends ReactContextBaseJavaModule i
         }
     }
 
-    @Override
+    //@Override
     public void onActivityResult(Activity activity, int requestCode, int resultCode, Intent data) {
         if (requestCode == REQUEST_CHECK_SETTINGS && promise != null) {
             if (resultCode == RESULT_OK ) {
@@ -132,7 +132,7 @@ public class RNAndroidLocationEnablerModule extends ReactContextBaseJavaModule i
         }
     }
 
-    @Override
+    //@Override
     public void onNewIntent(Intent intent) {
 
     }
